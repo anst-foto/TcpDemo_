@@ -10,10 +10,16 @@ await server.ConnectAsync(endPoint);
 
 while (true)
 {
+    await Task.Delay(100);
     var buffer = new byte[1024];
-    var size = await server.ReceiveAsync(buffer);
-    var text = Encoding.UTF8.GetString(buffer, 0, size);
-    Console.WriteLine(text);
+    var sb = new StringBuilder();
+    while (server.Available > 0)
+    {
+        var size = await server.ReceiveAsync(buffer);
+        var text = Encoding.UTF8.GetString(buffer, 0, size);
+        sb.Append(text);
+    }
+    Console.WriteLine(sb.ToString());
     
     await Task.Delay(100);
     
