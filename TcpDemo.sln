@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpDemo.Server", "TcpDemo.Server\TcpDemo.Server.csproj", "{7201AB29-5A7E-4F14-AFBB-61FC3869E19E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpDemo.Client", "TcpDemo.Client\TcpDemo.Client.csproj", "{351FE5D1-192D-41E0-8700-5FFCA3B6BFA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7201AB29-5A7E-4F14-AFBB-61FC3869E19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7201AB29-5A7E-4F14-AFBB-61FC3869E19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7201AB29-5A7E-4F14-AFBB-61FC3869E19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7201AB29-5A7E-4F14-AFBB-61FC3869E19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351FE5D1-192D-41E0-8700-5FFCA3B6BFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351FE5D1-192D-41E0-8700-5FFCA3B6BFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351FE5D1-192D-41E0-8700-5FFCA3B6BFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351FE5D1-192D-41E0-8700-5FFCA3B6BFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
